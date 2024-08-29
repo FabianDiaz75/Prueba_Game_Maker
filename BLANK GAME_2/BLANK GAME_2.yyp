@@ -34,13 +34,20 @@
   },
   "name":"BLANK GAME_2",
   "resources":[
+    {"id":{"name":"Box","path":"objects/Box/Box.yy",},},
+    {"id":{"name":"Player_Faz","path":"objects/Player_Faz/Player_Faz.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Piso","path":"sprites/Piso/Piso.yy",},},
+    {"id":{"name":"Spr_Faz","path":"sprites/Spr_Faz/Spr_Faz.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"tile_Block","path":"tilesets/tile_Block/tile_Block.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
