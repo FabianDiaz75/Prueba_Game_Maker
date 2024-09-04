@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"BLANK GAME_2",
   "resources":[
@@ -41,6 +41,7 @@
     {"id":{"name":"Piso","path":"sprites/Piso/Piso.yy",},},
     {"id":{"name":"Spr_Faz","path":"sprites/Spr_Faz/Spr_Faz.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"tile_Block","path":"tilesets/tile_Block/tile_Block.yy",},},
   ],
   "resourceType":"GMProject",
