@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object3",
+  "%Name":"Object4",
   "eventList":[],
   "managed":true,
-  "name":"Object3",
+  "name":"Object4",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
