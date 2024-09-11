@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,11 +42,18 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"tile_Block","path":"tilesets/tile_Block/tile_Block.yy",},},
+    {"id":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},},
+    {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
+    {"id":{"name":"Gun","path":"objects/Gun/Gun.yy",},},
+    {"id":{"name":"PruebaPistola","path":"rooms/PruebaPistola/PruebaPistola.yy",},},
+    {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},},
+    {"id":{"name":"Enemy_sprite","path":"sprites/Enemy_sprite/Enemy_sprite.yy",},},
+    {"id":{"name":"Gun_sprite","path":"sprites/Gun_sprite/Gun_sprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"PruebaPistola","path":"rooms/PruebaPistola/PruebaPistola.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
