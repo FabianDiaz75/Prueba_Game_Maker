@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object4",
+  "%Name":"Box",
   "eventList":[],
   "managed":true,
-  "name":"Object4",
+  "name":"Box",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -21,13 +21,21 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":1366.0,"y":0.0,},
+    {"x":1366.0,"y":1366.0,},
+    {"x":0.0,"y":1366.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Piso",
+    "path":"sprites/Piso/Piso.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
