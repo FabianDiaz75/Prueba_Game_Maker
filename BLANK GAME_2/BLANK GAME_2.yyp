@@ -35,9 +35,9 @@
   "name":"BLANK GAME_2",
   "resources":[
     {"id":{"name":"Box","path":"objects/Box/Box.yy",},},
-    {"id":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},},
-    {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
-    {"id":{"name":"Gun","path":"objects/Gun/Gun.yy",},},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},},
     {"id":{"name":"Player_Faz","path":"objects/Player_Faz/Player_Faz.yy",},},
     {"id":{"name":"PruebaPistola","path":"rooms/PruebaPistola/PruebaPistola.yy",},},
     {"id":{"name":"BulletSprite","path":"sprites/BulletSprite/BulletSprite.yy",},},
