@@ -5,14 +5,17 @@ var vel= keyboard_check(vk_shift)*5
 if(hor !=0){
 	x+=hor*(5+vel);
 	image_xscale = hor
-	gunKickX = 0;
+	
+}
+
+if(mouse_check_button(mb_left) and obj_gun.isShooting){
+	x += gunKickX
+	y += gunKickY
+	isShooting = false;
 }
 
 
-if(obj_gun.isShooting){
-	x += gunKickY;
-	y += gunKickX;
-}
+
 
 if(keyboard_check_pressed(ord("W"))&&collision_rectangle(x-8,y,x+8,y+1,Box,false,false)){
 	vspeed-=10
