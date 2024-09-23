@@ -6,28 +6,21 @@ image_angle = direction;
 
 
 
-if(direction >=90 and direction <=270){
 
-	x = Player_Faz.x -  0.25;
-	y = Player_Faz.y - 40;
-}else{
-	x = Player_Faz.x +  0.25;
-	y = Player_Faz.y - 40;
-}
 
 
 bulletDelayer++;
 canShoot = false;
 isShooting = false;
-if(bulletDelayer >= 10){
+if(bulletDelayer >= 2){
 	bulletDelayer = 0;
 	canShoot = true;
 	isShooting = false
 	
 		with (Player_Faz){
 			isShooting = true;
-			gunKickX = lengthdir_x(40, other.image_angle + 180);
-			gunKickY = lengthdir_y(40, other.image_angle + 180);
+			gunKickX = lengthdir_x(15, other.image_angle + 180);
+			gunKickY = lengthdir_y(15, other.image_angle + 180);
 		}
 	
 }
