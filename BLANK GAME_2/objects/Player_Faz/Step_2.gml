@@ -1,5 +1,5 @@
 if(!collision_rectangle(x-8,y,x+8,y+1,Box,false,false)){
-	gravity=0.35
+	gravity=0.25
 }
 if(vspeed>0){
 	var ground = collision_rectangle(x-8,y,x+8,y+1,Box,false,false) 

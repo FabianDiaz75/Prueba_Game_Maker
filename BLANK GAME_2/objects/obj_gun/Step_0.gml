@@ -26,8 +26,8 @@ if(bulletDelayer >= 10){
 	
 		with (Player_Faz){
 			isShooting = true;
-			gunKickX = lengthdir_x(20, other.image_angle + 180);
-			gunKickY = lengthdir_y(20, other.image_angle + 180);
+			gunKickX = lengthdir_x(40, other.image_angle + 180);
+			gunKickY = lengthdir_y(40, other.image_angle + 180);
 		}
 	
 }
