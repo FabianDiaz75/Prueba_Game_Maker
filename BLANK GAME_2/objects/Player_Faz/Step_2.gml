@@ -1,17 +1,20 @@
-if(!collision_rectangle(x-8,y,x+8,y+1,Box,false,false)){
-	gravity=0.35
+if(!collision_rectangle(x-8,y,x+8,y+1,Box,true,false)){
+	gravity=0.25
 }
-var ground = collision_rectangle(x-8,y,x+8,y+1,Box,false,false)
+var ground = collision_rectangle(x-8,y,x+8,y + 1,Box,true,false)
 if(vspeed>0){
 	if(ground){
-		vspeed=0
 		gravity=0
+		vspeed=0
 	}
 }
+
+if(hspeed>0 or hspeed<0) hspeed = 0;
+
 if(mouse_check_button(mb_left) and obj_gun.isShooting){
-	x += gunKickX
-	if(not ground and gunKickY<0){
-	y += gunKickY
+	hspeed += gunKickX
+	if(gunKickY<0 and y > 200){
+	vspeed += gunKickY
 	}
 	isShooting = false;
 }
