@@ -1,0 +1,2 @@
+accion="Nadando";
+direccion="Ar";
