@@ -18,12 +18,16 @@ if(mouse_check_button(mb_left) and obj_gun.isShooting){
 	}
 	isShooting = false;
 }
-/*
+
 if(vspeed<0){
-	var techo= collision_rectangle(x-8,y,x+8,y-sprite_height+25,Box,false,false)	
+	var techo= collision_rectangle(x-8,y-sprite_height,x+8,y-1-sprite_height,Box,false,false)	
 	if(techo){
 		vspeed=0
 	}
 }
-
-*/
+if(hspeed!=0){
+	var pared=collision_rectangle(x-(sprite_width/2)-1,y,x+(sprite_width/2)+1,y-sprite_height,Box,false,false)	
+	if(pared){
+		hspeed=0
+	}
+}
