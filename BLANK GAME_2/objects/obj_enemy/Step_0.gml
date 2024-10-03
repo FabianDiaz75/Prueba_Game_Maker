@@ -10,7 +10,7 @@ if (place_meeting(x + enemyVelocityX, y, obj_gun)){
 }
 
 	var Xeto=x+enemyVelocityX;
-	if(!collision_line(x,y,Xeto,y,Box,true,false)){
+	if(!collision_line(x,y,Xeto,y,Obj_Block,true,false)){
 	x=Xeto	
 	}else enemyVelocityX *=-1
 if(enemyLife == 0){

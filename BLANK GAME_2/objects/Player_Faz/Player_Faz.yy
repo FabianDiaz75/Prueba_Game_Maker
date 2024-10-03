@@ -41,6 +41,9 @@
     "name":"Spr_Faz",
     "path":"sprites/Spr_Faz/Spr_Faz.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Spr_Faz",
+    "path":"sprites/Spr_Faz/Spr_Faz.yy",
+  },
   "visible":true,
 }

@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"Map",
-  "bboxMode":2,
+  "bboxMode":0,
   "bbox_bottom":2999,
   "bbox_left":0,
   "bbox_right":2099,
