@@ -9,3 +9,11 @@ sprint=0
 
 grav_speed=0
 dir=0
+
+hp = 100
+maxHp = hp
+
+healthbarWidth = 100
+healthbarHeight = 12
+healthbarX = ((window_get_width() / 2) - healthbarWidth / 2)
+healthbarY = ystart - 10
