@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 
-if (place_meeting(x + enemyVelocityX, y, obj_gun)){
-	while(!place_meeting(x + sign(enemyVelocityX), y, obj_gun)){
+if (place_meeting(x + enemyVelocityX, y, Box)){
+	while(!place_meeting(x + sign(enemyVelocityX), y, Box)){
 	x+=sign(enemyVelocityX);
 	}
 	enemyVelocityX *=-1
