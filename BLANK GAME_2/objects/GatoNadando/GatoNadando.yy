@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"GatoNadandoDer",
-    "path":"sprites/GatoNadandoDer/GatoNadandoDer.yy",
+    "name":"GatoDer",
+    "path":"sprites/GatoDer/GatoDer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

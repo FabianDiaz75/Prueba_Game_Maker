@@ -18,10 +18,10 @@ function Movements()
 	}
 	hsp=lengthdir_x(mov_spd,dir)+sprint;
 	vsp=lengthdir_y(mov_spd,dir)+grav_speed
-		
+	
 	if place_meeting(x+hsp,y,Box) {hsp=0}
 	if place_meeting(x,y+vsp,Box) {vsp=0}
-	
+	vsp=clamp(vsp,-4,4)
 	vspeed=vsp
 	hspeed=hsp
 }
