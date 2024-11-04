@@ -3,3 +3,4 @@
 
 enemyVelocityX = 1
 enemyLife = 4
+contadorDanio = 0;

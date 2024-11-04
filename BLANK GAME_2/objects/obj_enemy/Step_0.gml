@@ -12,3 +12,7 @@ if (place_meeting(x + enemyVelocityX, y, Box)){
 
 if(enemyLife == 0){
 	instance_destroy()}
+	
+if(contadorDanio >= 0){
+	contadorDanio --;
+}
