@@ -1,8 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-direction = point_direction(x, y,mouse_x,mouse_y)
-image_angle = direction;
+
+var dir = point_direction(x, y, mouse_x, mouse_y);
+with (GatoNadando) cambiarSpriteGato(dir);
+if (mouse_x < x) {
+  
+    image_yscale = -1; 
+    image_angle = dir;
+	direction = dir + 180;
+} else {
+    image_xscale = 1;
+    image_angle = dir;
+	direction = dir;
+}
+
+
 
 bulletDelayer++;
 canShoot = false;

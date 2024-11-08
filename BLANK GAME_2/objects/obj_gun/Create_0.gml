@@ -3,3 +3,5 @@
 bulletDelayer=0;
 canShoot = true;
 isShooting = false;
+dir = 0;
+direccion="";
