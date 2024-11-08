@@ -38,7 +38,7 @@ if(option == 1)
 	draw_set_alpha(l7B0968D7_0 / $ff);
 }
 
-draw_text(600, 600, string("Salir al escritorio: ") + "");
+draw_text(600, 600, string("Salir al escritorio ") + "");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
