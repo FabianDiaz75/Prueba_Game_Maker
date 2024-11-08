@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 	
-	y = Player_Faz.y - 40;
-	x = Player_Faz.x
+	y = GatoNadando.y - 40;
+	x = GatoNadando.x

@@ -17,3 +17,8 @@ healthbarWidth = 100
 healthbarHeight = 12
 healthbarX = ((window_get_width() / 2) - healthbarWidth / 2)
 healthbarY = ystart - 10
+
+isShooting = true
+
+gunKickY = 0
+gunKickX = 0

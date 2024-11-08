@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Movements()
 {
+
+	
 	var hor= keyboard_check(ord("D"))-keyboard_check(ord("A"))
 	var ver= keyboard_check(ord("S"))-keyboard_check(ord("W"))
 	mov_spd=3
@@ -16,12 +18,21 @@ function Movements()
 		hsp=lerp(hsp,0,0.1)
 		vsp=lerp(vsp,0,0.1)
 	}
-	hsp=lengthdir_x(mov_spd,dir)+sprint;
-	vsp=lengthdir_y(mov_spd,dir)+grav_speed
+	hsp=lengthdir_x(mov_spd,dir)+sprint+gunKickX
+	vsp=lengthdir_y(mov_spd,dir)+grav_speed+gunKickY
+
+
+	
 	
 	if place_meeting(x+hsp,y,Box) {hsp=0}
 	if place_meeting(x,y+vsp,Box) {vsp=0}
 	vsp=clamp(vsp,-4,4)
+	hsp=clamp(hsp,-4,4)
+
+	
+	
+	
 	vspeed=vsp
 	hspeed=hsp
 }
+
