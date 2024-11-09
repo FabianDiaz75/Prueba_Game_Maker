@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Musica_nivel.wav",
   "type":0,
-  "volume":0.99,
+  "volume":0.56,
 }
