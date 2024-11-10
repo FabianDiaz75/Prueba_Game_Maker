@@ -20,7 +20,7 @@ else if(gunKickX < 0)gunKickX+=0.3
 if(gunKickY > 0)gunKickY-=0.1
 else if(gunKickY < 0)gunKickY+=0.3
 
-if(mouse_check_button(mb_left) and obj_gun.isShooting){
+if(mouse_check_button(mb_left) and instance_exists(obj_gun) and obj_gun.isShooting and hasgun == true){
 	isShooting = true;
 	
 	gunKickX = lengthdir_x(10, obj_gun.image_angle + 180);

@@ -22,3 +22,4 @@ isShooting = true
 
 gunKickY = 0
 gunKickX = 0
+hasgun = false;
