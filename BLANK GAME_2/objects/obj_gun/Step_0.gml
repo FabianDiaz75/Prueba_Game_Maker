@@ -6,11 +6,10 @@ if (mouse_x < x) {
   
     image_yscale = -1; 
     image_angle = dir;
-	direction = dir + 180;
 } else {
     image_xscale = 1;
+	image_yscale = 1; 
     image_angle = dir;
-	direction = dir;
 }
 
 
@@ -26,7 +25,7 @@ if(bulletDelayer >= 10){
 
 }
 
-if(mouse_check_button(mb_left)and canShoot){
+if(mouse_check_button(mb_left)and canShoot and GatoNadando.hasgun){
 	with (instance_create_layer(x ,y,"Instances", obj_bullet)){
 		speed = 10;
 		direction = other.image_angle;
