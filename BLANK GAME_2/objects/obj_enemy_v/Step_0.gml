@@ -2,13 +2,13 @@
 // You can write your code in this editor
 
 
-if (place_meeting(x + enemyVelocityX, y, Box)){
-	while(!place_meeting(x + sign(enemyVelocityX), y, Box)){
-	x+=sign(enemyVelocityX);
+if (place_meeting(x , y + enemyVelocityX, Box)){
+	while(!place_meeting(x , y + sign(enemyVelocityX), Box)){
+	y+=sign(enemyVelocityX);
 	}
 	enemyVelocityX *=-1
 }
-x+=enemyVelocityX;
+y+=enemyVelocityX;
 if(enemyLife == 0){
 	instance_destroy()}
 	
