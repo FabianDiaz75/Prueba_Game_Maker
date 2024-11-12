@@ -8,18 +8,18 @@
     "TileSerialiseData":[],
   },
   "name":"TileSet2",
-  "out_columns":63,
+  "out_columns":21,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Tilesets",
-    "path":"sprites/Tilesets/Tilesets.yy",
+    "name":"titleset_plataformas_marinas",
+    "path":"sprites/titleset_plataformas_marinas/titleset_plataformas_marinas.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":3975,
+  "tile_count":448,
 }
