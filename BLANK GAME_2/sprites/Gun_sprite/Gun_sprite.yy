@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"BLANK GAME_2",
-    "path":"BLANK GAME_2.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

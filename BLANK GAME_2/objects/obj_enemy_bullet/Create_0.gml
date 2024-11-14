@@ -1,7 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(contadorDanio <= 0){
-	obj_system.playerHp -= 5;
-	
-	contadorDanio = 40;
-}
+contadorDanio=0;
+enemyVelocity=3;

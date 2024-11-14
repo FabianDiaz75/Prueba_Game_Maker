@@ -239,8 +239,8 @@
   "maintainGms1Font":false,
   "name":"Font1",
   "parent":{
-    "name":"BLANK GAME_2",
-    "path":"BLANK GAME_2.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "pointRounding":0,
   "ranges":[
