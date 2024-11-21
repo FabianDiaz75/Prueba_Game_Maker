@@ -37,6 +37,8 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Box","path":"objects/Box/Box.yy",},},
+    {"id":{"name":"Broken_box","path":"objects/Broken_box/Broken_box.yy",},},
+    {"id":{"name":"CheckPoint","path":"objects/CheckPoint/CheckPoint.yy",},},
     {"id":{"name":"GatoNadando","path":"objects/GatoNadando/GatoNadando.yy",},},
     {"id":{"name":"obj_boss_spawner","path":"objects/obj_boss_spawner/obj_boss_spawner.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
