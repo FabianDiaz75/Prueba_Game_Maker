@@ -10,8 +10,10 @@ if (place_meeting(x + enemyVelocityX, y, Box)){
 }
 x+=enemyVelocityX;
 if(enemyLife == 0){
-	instance_destroy()}
-	
+	instance_destroy()
+	audio_pause_sound(Musica_nivel);
+	room_goto(Inicio);
+}
 if(contadorDanio >= 0){
 	contadorDanio --;
 }

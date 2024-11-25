@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Piso",
-    "path":"sprites/Piso/Piso.yy",
+    "name":"spr_broken_block",
+    "path":"sprites/spr_broken_block/spr_broken_block.yy",
   },
   "spriteMaskId":null,
   "visible":true,

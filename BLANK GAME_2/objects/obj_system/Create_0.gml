@@ -3,6 +3,7 @@
 
 display_set_gui_size(240, 135)
 playerHp = 25
+actualHp=25
 maxHp = 25
 x_spawn_player=128
 y_spawn_player=160

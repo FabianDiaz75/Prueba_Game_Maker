@@ -7,6 +7,7 @@ if (place_meeting(x + enemyVelocityX, y, Box)){
 	x+=sign(enemyVelocityX);
 	}
 	enemyVelocityX *=-1
+	image_xscale*=-1;
 }
 x+=enemyVelocityX;
 if(enemyLife == 0){

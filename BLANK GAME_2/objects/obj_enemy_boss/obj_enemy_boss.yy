@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Boss_sprite",
-    "path":"sprites/Boss_sprite/Boss_sprite.yy",
+    "name":"real_boss_sprite",
+    "path":"sprites/real_boss_sprite/real_boss_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

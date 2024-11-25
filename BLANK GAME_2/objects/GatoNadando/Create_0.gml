@@ -6,10 +6,10 @@ vsp=0
 mov_spd=3
 grv=0.3
 sprint=0
-
+damaged=false;
 grav_speed=0
 dir=0
-
+damage_timer=0;
 hp = 100
 maxHp = hp
 

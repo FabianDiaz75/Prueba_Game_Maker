@@ -28,4 +28,3 @@ if(mouse_check_button(mb_left) and instance_exists(obj_gun) and obj_gun.isShooti
 
 	isShooting = false;	
 }
-
