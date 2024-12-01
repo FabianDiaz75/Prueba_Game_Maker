@@ -1,6 +1,6 @@
 
 
-
+/*
 draw_set_font(Font1);
 
 draw_set_halign(fa_center);
@@ -42,3 +42,4 @@ draw_text(600, 600, string("Salir al escritorio ") + "");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+*/
